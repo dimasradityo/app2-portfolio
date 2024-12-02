@@ -1,0 +1,15 @@
+title,company,start_date,end_date,description,achievements
+Product Manager,TipTip,Dec 2021,Present,"TipTip is a one-stop solution for content creators to monetize their audience. Responsible for full funnel product solutions for supply side users, including onboarding, monetization and engagement features. Also leading the product development for strategic, big bets initiatives and 3rd party integrations.","• Ideated, prototyped and launched TipTip's first ever MVP to the market.
+• Launched affiliate program from scratch and is currently attributing IDR >2bn GMV monthly.
+• Automated the earnings calculation and payout process for creators and affiliates, reducing the SLA from 3x24 hours to real time and increasing # of transactions 40x within 6 months of launch.
+• Built a sub-product for event organizers to check in event attendees and was used for events with thousands of attendees, such as Indonesia Comic Con and Michael Learns to Rock concert.
+• Built in-house framework to forecast event traffic that is used by management for decision making, and engineering for ticket war preparation. Successfully forecasted traffic for big events like Green Day, Boyz II Men and The Corrs with ~20% margin of error."
+Product Manager,Ruangguru,Sep 2021,Dec 2021,"Ruangguru is the leading edtech platform in Indonesia. Responsible for the core live teaching stream in Ruangguru, which includes one way and two way live teaching experiences utilized in the Brain Academy and English Academy products.","• Launched chat moderation features in the live teaching experience.
+• Improved the internal tool for the live teaching product, reducing time and manual effort needed for internal users.
+• Led a workshop with engineering and design to structurize the existing development workflow."
+"Director, Data and Product Operations",AdaKerja,Mar 2020,Sep 2021,"AdaKerja is a B2B2C platform to connect blue collar workers with employers. I'm responsible for end-to-end planning and execution of strategic initiatives for the business (research, project management, GTM, marketing, monitoring, iteration).","• Launched a new product vertical for attendance and payroll, which had a consistent ~50% w.o.w MAU and GMV increase in the first 3 months after launch.
+• Built a company-wide dashboard using Google Data Studio compiling various business metrics from acquisition, engagement, retention, payments, and more.
+• Executed a growth hack that successfully doubled the number of lifetime onboarded companies in ~3 weeks (with zero supply acquisition costs)."
+Researcher,Gojek,Jan 2019,Jul 2020,"GoFood is one of the major food delivery services in Indonesia. I'm responsible for conducting end-to-end research using various methods including qualitative, quantitative, and internal data analysis.","• Influenced the product development priority with extensive collaboration with product & design teams.
+• Addressed bottlenecks in the business/operational process, and provided recommendations.
+• Analyzed root causes and shared feasible action plans for implementing cost cutting initiatives."
