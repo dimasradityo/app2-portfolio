@@ -17,7 +17,6 @@ def render_experience(heading, data_source, is_startup = True):
             achievements_appended = ''
             for a in achievements[1:]:
                 achievements_appended += f"• {a}  \n"
-                print(achievements_appended)
             st.write(achievements_appended)
             if is_startup == False:
                 st.write("**:red[Reasons for Failure]:**")
