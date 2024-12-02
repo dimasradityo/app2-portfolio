@@ -14,8 +14,11 @@ def render_experience(heading, data_source, is_startup = True):
             st.write(row['description'])
             st.write("**Achievements:**")
             achievements = row['achievements'].split('•')
+            achievements_appended = ''
             for a in achievements[1:]:
-                st.write(f"• {a}")
+                achievements_appended += f"• {a}  \n"
+                print(achievements_appended)
+            st.write(achievements_appended)
             if is_startup == False:
                 st.write("**:red[Reasons for Failure]:**")
                 reason_for_failure = row['reason_for_failure'].split('•')
@@ -23,12 +26,12 @@ def render_experience(heading, data_source, is_startup = True):
                     st.write(f"• {r}")    
 
 # Page heading
-col1, col2 = st.columns([1.5,2])
+col1_heading, col2_heading = st.columns([1.5,2])
 
-with col1:
+with col1_heading:
     st.image("images/profile_picture.jpeg")
 
-with col2:
+with col2_heading:
     st.title("Dimas Radityo")
     st.write("Product Manager; Aspiring Solopreneur; Lifelong Learner.")
     st.write(":email:: dimasradityo.b@gmail.com")
@@ -48,12 +51,42 @@ Academically accomplished with honors, and have led an organization in the Unite
 '''
 st.write(content)
 
-# Full Time Experience Section
+# Work Experience Section
 render_experience('Full Time Experiences', 'data/full_time.csv')
-    
-
-# Part Time Experience Section
 render_experience('Part Time Experiences', 'data/part_time.csv')
-
-# Failed Startups Section
 render_experience('Failed Startups', 'data/startups.csv', False)
+
+# Education Section
+st.header(f":blue[Education]", divider='gray')
+st.write("**Business Management, Finance and Financial Management Services**  \nPPM School of Management - Bachelor's Degree  \n2015 - 2018")
+st.write("**Business**  \nShoreline Community College - Associate's Degree  \n2013 - 2015")
+
+
+# Others Section
+col_1_others, col_2_others, col_3_others = st.columns(3)
+
+# Skills Section
+with col_1_others:
+    st.header(f":blue[Skills]", divider='gray')
+
+    st.write('**Product Management**  \nAdvanced')
+    st.write('**User Research**  \nAdvanced')
+    st.write('**SQL**  \nAdvanced')
+    st.write('**Product Analytics**  \nAdvanced')
+    st.write('**Product Strategy**  \nIntermediate')
+    st.write('**Python**  \nIntermediate')
+
+# Certifications Section
+with col_2_others:
+    st.header(f":blue[Certifications]", divider='gray')
+    
+    st.write('**Quantitative Research**  \nCoursera (2019)')
+    st.write('**Data Wrangling, Analysis and AB Testing with SQL**  \nCoursera (2019)')
+    st.write('**Certification of Software Engineering**  \nPurwadhika Startup and Coding School (2017)')
+
+# Languages Section
+with col_3_others:
+    st.header(f":blue[Languages]", divider='gray')
+    st.write("**Indonesian**  \nNative")
+    st.write("**English**:  \nProfessional")
+    st.write("**Chinese**:  \nBasic")
